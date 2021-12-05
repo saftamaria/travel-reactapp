@@ -56,12 +56,7 @@ export default function Recommend() {
     },
   ];
 
-  const packages = [
-    "The Weekend Break",
-    "The Package Holiday",
-    "The Group Tour",
-    "Long Term Slow Travel",
-  ];
+
 
   const [active, setActive] = useState(1);
   return (
@@ -69,20 +64,7 @@ export default function Recommend() {
       <div className="title">
         <h2>Recommended Destinations</h2>
       </div>
-      <div className="packages">
-        <ul>
-          {packages.map((pkg, index) => {
-            return (
-              <li
-                className={active === index + 1 ? "active" : ""}
-                onClick={() => setActive(index + 1)}
-              >
-                {pkg}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+   
       <div className="destinations">
         {data.map((destination) => {
           return (
@@ -128,7 +110,7 @@ const Section = styled.section`
         border-bottom: 0.1rem solid black;
       }
       .active {
-        border-bottom: 0.5rem solid #8338ec;
+        border-bottom: 0.5rem solid #4539e6;
       }
     }
   }
@@ -142,7 +124,7 @@ const Section = styled.section`
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      background-color: #8338ec14;
+      background-color: #E0ECF8;
       border-radius: 1rem;
       transition: 0.3s ease-in-out;
       &:hover {
@@ -160,7 +142,7 @@ const Section = styled.section`
           gap: 0.3rem;
           img {
             border-radius: 1rem;
-            background-color: #4d2ddb84;
+            background-color: #5CA6F1;
             width: 2rem;
             /* padding: 1rem; */
             padding: 0.3rem 0.4rem;
