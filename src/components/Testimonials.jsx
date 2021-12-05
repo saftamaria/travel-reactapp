@@ -1,49 +1,48 @@
 import React from "react";
 import styled from "styled-components";
 import avatarImage from "../assets/avatarImage.jpeg";
+import avatarImage1 from "../assets/avatarImage1.jpeg";
+import avatarImage2 from "../assets/avatarImage2.jpeg";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="title">
-        <h2>Happy Customers</h2>
+        <h2>Customers Vibe</h2>
       </div>
       <div className="testimonials">
         <div className="testimonial">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
+            This agency helped me to find the perfect packages for my employee to enjoy this summer.
           </p>
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Kira Motlev</h4>
+              <span>CEO - HR Creative Solutions </span>
             </div>
           </div>
         </div>
         <div className="testimonial">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
+            Very satisfied with this agency politics of refunds for this COVID-19 time.
           </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
+            <img src={avatarImage1} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Salvador Rebbenco</h4>
+              <span>Manager- UbiSoft Inc.</span>
             </div>
           </div>
         </div>
         <div className="testimonial">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            asperiores eaque.
+            Enjoyed every advice from the employee and offers for the next year traveling.
           </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
+            <img src={avatarImage2} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Edwin Popp</h4>
+              <span>Freelancer - DevOps IT services</span>
             </div>
           </div>
         </div>
